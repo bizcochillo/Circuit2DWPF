@@ -6,14 +6,10 @@
              xmlns:local="clr-namespace:Circuit2D.Gui.Views"
              mc:Ignorable="d">
     <DockPanel>
-        <DockPanel DockPanel.Dock="Left" Background="#FFC0CB" Width="30">
-            <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="4,0,4,10">
-            </StackPanel>
-        </DockPanel>
         <Border DockPanel.Dock ="Top" CornerRadius="4" Background="AliceBlue"  Margin="5">
             <StackPanel Orientation="Vertical">
-                <Button Content="Vehicles"></Button>
-                <Button Content="Package"></Button>
+                <Button x:Name="btnVehicles" Content="Vehicles" Click="BtnVehicles_Click"></Button>
+                <Button x:Name="btnPackage" Content="Package" Click="BtnPackage_Click"></Button>
             </StackPanel>
         </Border>
     </DockPanel>

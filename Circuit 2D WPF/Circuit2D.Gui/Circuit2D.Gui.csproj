@@ -86,8 +86,28 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\BezierDrawingPath.cs" />
+    <Compile Include="Model\ConveyorDrawingPath.cs" />
+    <Compile Include="Model\ConveyorSegmentBase.cs" />
+    <Compile Include="Model\CurvedConveyorSegment.cs" />
+    <Compile Include="Model\DrawingPathBase.cs" />
+    <Compile Include="Model\BezierLineBasicInfoDto.cs" />
+    <Compile Include="Model\Interfaces\ICanvas.cs" />
+    <Compile Include="Model\Interfaces\IDrawingPath.cs" />
+    <Compile Include="Model\Interfaces\IForklift.cs" />
+    <Compile Include="Model\Interfaces\ISettingsView.cs" />
+    <Compile Include="Model\StraightConveyorSegment.cs" />
+    <Compile Include="Model\WpfCanvas.cs" />
+    <Compile Include="Model\TrackedCanvasElements.cs" />
+    <Compile Include="Model\VehicleType.cs" />
     <Compile Include="Shell.xaml.cs">
       <DependentUpon>Shell.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\ConveyorSettingsViewModel.cs" />
+    <Compile Include="ViewModel\VehiclesSettingsViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="Views\ConveyorSettingsView.xaml.cs">
+      <DependentUpon>ConveyorSettingsView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\SideMenuView.xaml.cs">
       <DependentUpon>SideMenuView.xaml</DependentUpon>
@@ -96,11 +116,22 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Views\VehiclesSettingsView.xaml.cs">
+      <DependentUpon>VehiclesSettingsView.xaml</DependentUpon>
+    </Compile>
     <Page Include="Shell.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\ConveyorSettingsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\SideMenuView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\VehiclesSettingsView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

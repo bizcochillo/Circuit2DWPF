@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circuit2D.Gui", "Circuit2D.Gui\Circuit2D.Gui.csproj", "{54433783-6148-435A-82F1-60EEA8C7CC61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circuit2D.Gui.Tests", "Circuit2D.Gui.Tests\Circuit2D.Gui.Tests.csproj", "{09EAE3A0-875B-4E65-AC4A-A3CC0B117583}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{54433783-6148-435A-82F1-60EEA8C7CC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54433783-6148-435A-82F1-60EEA8C7CC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54433783-6148-435A-82F1-60EEA8C7CC61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09EAE3A0-875B-4E65-AC4A-A3CC0B117583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09EAE3A0-875B-4E65-AC4A-A3CC0B117583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09EAE3A0-875B-4E65-AC4A-A3CC0B117583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09EAE3A0-875B-4E65-AC4A-A3CC0B117583}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,7 +9,7 @@
         mc:Ignorable="d"
         Title="Shell" Height="450" Width="800">
     <DockPanel x:Name="MainLayout" LastChildFill="True">
-        <views:SideMenuView DockPanel.Dock="Left" x:Name="MenuPanel" Width="150"/>
+        <views:SideMenuView DockPanel.Dock="Left" Width="150"/>
         <ContentControl DockPanel.Dock="Right" regions:RegionManager.RegionName="DetailsRegion"/>
         <Canvas x:Name="DesignRegionCanvas" DockPanel.Dock="Left" ClipToBounds="true" Background="#EAEBEB" />
     </DockPanel>
